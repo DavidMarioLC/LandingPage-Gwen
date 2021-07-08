@@ -1,0 +1,22 @@
+.clients {
+  padding: 4rem 0;
+}
+
+.clients__content {
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  place-content: center center;
+  place-items: center center;
+  gap: 2rem;
+}
+
+.clients__image {
+  padding: 2rem;
+}
+
+.clients__image img {
+  width: 100%;
+  max-width: 150px;
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Arvo;
+  src: url("../fonts/Arvo-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Arvo;
+  src: url("../fonts/Arvo-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --fontbase: Arvo;
+  --primary: #9b76ff;
+  --white: #fffffe;
+  --grey: #afbac7;
+  --secondary: #82858f;
+  --tertiary: #2cb67d;
+  --background-1: #16161a;
+  --background-2: #242629;
+  --button-background: #7f5af0;
+  --headline1: 700 4.5rem/5rem var(--fontbase);
+  --headline2: 700 4rem/4.75rem var(--fontbase);
+  --headline3: 700 2rem/2rem var(--fontbase);
+  --headline4: 700 1.5rem/1.649999976158142rem var(--fontbase);
+  --button: 400 1.125rem/1.6875rem var(--fontbase);
+  --caption: 400 0.75rem/1.6875rem var(--fontbase);
+  --headline5: 700 1.25rem/1.649999976158142rem var(--fontbase);
+  --body1-regular: 400 1.125rem/1.6875rem var(--fontbase);
+  --body1-bold: 700 1.125rem/1.6875rem var(--fontbase);
+  --body2-regular: 400 0.875rem/1.6875rem var(--fontbase);
+  --body2-bold: 700 0.875rem/1.6875rem var(--fontbase);
+}
+
+body {
+  background: var(--background-1);
+}

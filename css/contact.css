@@ -1,0 +1,18 @@
+.contacts {
+  padding: 4rem 0;
+}
+.contacts .title {
+  margin-bottom: 2.5rem;
+}
+
+.contacts__title {
+  font: var(--headline5);
+  color: var(--button-background);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts .title {
+    margin-bottom: 5rem;
+  }
+}

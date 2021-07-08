@@ -1,0 +1,42 @@
+.projects {
+  max-width: 800px;
+  margin: auto;
+  padding: 4rem 0;
+}
+
+.projects__content {
+}
+
+.projects .title {
+  margin-bottom: 2.5rem;
+}
+
+.project {
+  padding-bottom: 5rem;
+}
+
+.project__image {
+  max-width: 100%;
+}
+
+.project__name {
+  font: var(--body1-regular);
+  color: var(--grey);
+}
+
+.project__title {
+  font: var(--headline5);
+  color: var(--grey);
+}
+
+@media screen and (min-width: 768px) {
+  .projects .title {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .project__title {
+    font: var(--headline3);
+    color: var(--grey);
+  }
+}

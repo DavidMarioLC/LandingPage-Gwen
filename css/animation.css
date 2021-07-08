@@ -1,0 +1,16 @@
+/* animation menu mobile */
+.showMenu {
+  left: 0;
+}
+
+.menuIconAnimate {
+  background: transparent;
+}
+
+.menuIconAnimate::before {
+  transform: translateY(12px) rotate(45deg);
+}
+
+.menuIconAnimate::after {
+  transform: translateY(12px) rotate(-45deg);
+}

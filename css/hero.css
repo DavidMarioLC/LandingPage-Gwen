@@ -1,0 +1,9 @@
+.hero {
+  padding: 5rem 0;
+}
+
+.hero__paragraph {
+  font: var(--body1-regular);
+  color: var(--secondary);
+  max-width: 580px;
+}
