@@ -36,6 +36,9 @@
   --body2-regular: 400 0.875rem/1.6875rem var(--fontbase);
   --body2-bold: 700 0.875rem/1.6875rem var(--fontbase);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: var(--background-1);

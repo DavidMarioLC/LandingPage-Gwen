@@ -80,9 +80,15 @@
 }
 
 .list-link {
+  display: block;
   color: var(--white);
   font: var(--headline3);
   display: block;
+  transition: all 250ms ease;
+}
+
+.list-link:active {
+  transform: scale(0.8);
 }
 
 @media screen and (min-width: 768px) {
