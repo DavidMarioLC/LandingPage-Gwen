@@ -2,7 +2,9 @@
 .showMenu {
   left: 0;
 }
-
+.hideMenu {
+  left: -100%;
+}
 .menuIconAnimate {
   background: transparent;
 }
@@ -13,4 +15,14 @@
 
 .menuIconAnimate::after {
   transform: translateY(12px) rotate(-45deg);
+}
+
+.menuIconAnimateHide {
+  background: var(--primary);
+}
+.menuIconAnimateHide::before {
+  transform: translateY(8px) rotate(0);
+}
+.menuIconAnimateHide::after {
+  transform: translateY(16px) rotate(0);
 }

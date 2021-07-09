@@ -17,6 +17,7 @@
 
 .project__image {
   max-width: 100%;
+  height: auto;
 }
 
 .project__name {
