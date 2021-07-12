@@ -5,20 +5,19 @@ const listItemMenu = document.querySelectorAll('.list-link');
 
 
 function showMenu(){
-    menu.classList.remove('hideMenu');
-    menu.classList.add('showMenu');
-    stickMenu.classList.add('menuIconAnimate');
-     stickMenu.classList.remove('menuIconAnimateHide');
+    menu.classList.toggle('showMenu');
+    // menu.classList.toggle('hideMenu');
+    stickMenu.classList.toggle('menuIconAnimate');
+    //  stickMenu.classList.remove('menuIconAnimateHide');
 }
 
 function changeFocus(){
-    listItemMenu.forEach(item=> item.classList.remove('isActive'))
+    menu.classList.toggle('showMenu');
+    stickMenu.classList.toggle('menuIconAnimate');
     this.classList.add('isActive');
+    listItemMenu.forEach(item=> item.classList.remove('isActive'))
 
-    menu.classList.remove('showMenu');
-    menu.classList.add('hideMenu');
-    stickMenu.classList.remove('menuIconAnimate');
-    stickMenu.classList.add('menuIconAnimateHide');
+
 }
 
 menuIcon.addEventListener('click',showMenu);
